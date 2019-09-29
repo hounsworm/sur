@@ -1,0 +1,2333 @@
+html {
+  font-size: 62.5%;
+} 
+
+@font-face {
+    font-family: OpenSans;
+    src: url(./fonts/OpenSans-Bold.woff);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: OpenSans;
+  src: url(./fonts/OpenSans-Regular.woff);
+  font-weight: 400;
+}
+
+body  {
+  font-family: OpenSans, sans-serif;
+  margin: 0;
+}
+
+a {
+  
+  text-decoration: none;
+}
+
+.head {
+  
+  position: relative;
+  background-size: cover;
+  
+}
+
+.head::after {
+  
+  display: ;
+	content: "";
+	background-color: #131637;
+  position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+  opacity: 0.9;
+  z-index: 1;
+}
+
+.logo {
+    
+  fill: white;
+  z-index: 2;
+    
+}
+
+.googlelogo {
+  
+  fill: white;
+  z-index: 2;
+
+}
+
+.applelogo {
+  
+  fill: white;
+  z-index: 2;
+
+}
+
+.headlogo {
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.sur {
+  
+  color: white;
+  
+  font-weight: bold;
+  z-index: 2;
+  
+}
+
+.centerhe {
+  
+  z-index: 2;
+  position: relative;
+  color: white;
+  
+  font-weight: bold;
+  
+}
+
+.playcol {
+  
+  margin: 0;
+  padding: 0;
+  
+}
+
+.programma {
+    
+    display: flex;
+    align-items: flex-end;
+    
+  }
+  
+  .programmb {
+    
+    display: flex;
+    align-items: flex-start;
+    
+  }  
+    
+  
+  .apple {
+    
+    background-color: #5e42b0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+      
+  }
+  
+  .google {
+    
+    background-color: #5e42b0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    
+  }
+  
+  .insapple {
+    
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+  }
+  
+  .writedown {
+    
+    margin-left: 4%; 
+    flex: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+    
+  }
+  
+  .appledown {
+    
+    
+    font-weight: regular;
+    
+  }
+  
+  .app {
+    
+    
+    font-weight: bold;
+    
+  }
+  
+
+  .insgooogle {
+    
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+  }
+  
+  .writedowngoo {
+    
+    margin-left: 6%;
+    flex: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+  }
+  
+  .googledown {
+    
+    
+    font-weight: regular;
+    
+  }
+  
+  .goo {
+    
+    
+    font-weight: bold;
+    
+  }
+
+   /* end header */
+
+   .atlets {
+     
+    position: relative;
+  
+  
+  }
+
+    .headatl {
+    
+    color: #e7e7e7;
+    
+    font-weight: bold;
+  
+  }
+
+    .footbollerb {
+    
+     position: absolute;
+  
+  
+}
+
+
+  .titleconnect {
+    
+    display: flex;
+    align-items: center;
+  
+   }
+
+   .number {
+    
+    font-size: 1rem;
+    
+    font-weight: bold;
+    border-bottom: 5px #5e42b0 solid;
+    
+   }
+
+   .connect {
+     
+    margin-left: 2%;
+    
+    font-weight: bold;
+    color: #c1c1c1;
+     
+       
+    }
+
+   .atlcontext {
+      
+    
+    font-weight: bold;  
+  
+    }
+
+   .atlcollab {
+    
+    background-color: #f5f4f9;
+    
+  }
+
+   .titlecollab {
+    
+    display: flex;
+    align-items: center;
+  
+   }
+
+   .collab {
+     
+    margin-left: 2%;
+    
+    font-weight: bold;
+    color: #c1c1c1;
+       
+    }
+
+   .atlcolltext {
+      
+    
+    font-weight: bold;  
+  
+    }
+
+    .atlgrowth {
+  
+    background-color: #5e42b0;
+      
+    }
+
+    .titlegrowth {
+    
+    display: flex;
+    align-items: center;
+  
+   }
+
+   .grnumber {
+    
+    font-size: 1rem;
+    
+    font-weight: bold;
+    border-bottom: 5px white solid;
+    
+   }
+
+   .growth {
+     
+    margin-left: 2%;
+    
+    font-weight: bold;
+    color: #c1c1c1;
+       
+    }
+
+   .atlgrtext {
+      
+    
+    font-weight: bold;
+    color: white;
+  
+    }
+
+    /*end atlets*/
+
+    .players {
+     
+    position: relative;
+  
+  
+  }
+
+    .headpl {
+    
+    color: #e7e7e7;
+    font-size: 3.2rem;
+    
+    font-weight: bold;
+  
+  }
+
+    .basketboller {
+    
+     position: absolute;
+  
+  }
+
+
+  .titleplconnect {
+    
+    display: flex;
+    align-items: center;
+  
+   }
+
+   .number {
+    
+    font-size: 1rem;
+    
+    font-weight: bold;
+    border-bottom: 5px #5e42b0 solid;
+    
+   }
+
+   .plconnectit {
+     
+    
+    font-weight: bold;
+    color: #c1c1c1;
+    margin: 0 0 0 2%;
+       
+    }
+
+   .plcontext {
+      
+    
+    font-weight: bold; 
+  
+    }
+
+   .plcollab {
+    
+    background-color: #f5f4f9;
+    padding-top: 15%;
+    
+  }
+
+   .titleplcollab {
+    
+    display: flex;
+    align-items: center;
+  
+   }
+
+   .plcollabtit {
+     
+    
+    font-weight: bold;
+    color: #c1c1c1;
+    margin: 0 0 0 2%;
+       
+    }
+
+   .plcolltext {
+      
+    
+    font-weight: bold; 
+  
+    }
+
+    .plgrowth {
+  
+    background-color: #090c35;
+     padding-top: 15%;
+      
+    }
+
+    .plgrowthtit {
+  
+    
+    font-weight: bold;
+    color: #c1c1c1;
+    margin: 0 0 0 2%;
+      
+    }
+
+    .titleplgrowth {
+    
+    display: flex;
+    align-items: center;
+  
+   }
+
+   .plgrnumber {
+    
+    font-size: 1rem;
+    font-weight: bold;
+    color: #8765dd;
+    border-bottom: 5px white solid;
+    
+   }
+
+   .plgrowth {
+     
+    
+    font-weight: bold;
+    color: #c1c1c1;
+       
+    }
+
+   .plgrtext {
+      
+    
+    font-weight: bold;
+    color: white;
+  
+    }
+
+/*end players*/
+
+.fotobl {
+  
+  position: relative;
+  
+}
+
+img {
+  
+  display: block;
+  width: 100%;
+  
+}
+
+.pinkqurt {
+    
+
+    position: absolute;
+    background-color: #5e42b0;
+    display: flex;
+    
+  }
+
+.fpinkqurt {
+    
+
+    position: absolute;
+    background-color: #5e42b0;
+    display: flex;
+   
+  }
+
+.wpinkqurt {
+    
+    position: absolute;
+    background-color: #5e42b0;
+    display: flex;
+   
+  }
+  
+.fnumber {
+    
+    font-size: 1rem;
+    
+    font-weight: bold;
+    color: white;
+    border-bottom: 5px #8f7bc8 solid;
+    margin: auto;
+    
+  }
+
+.fotocouch {
+  
+  position: relative;
+  
+}
+
+.beamain {
+  
+  background-color: #ffffff;
+  
+}
+
+.beact {
+  
+  color: #e7e7e7;
+  
+  font-weight: bold;
+  
+}
+
+.betx {
+  
+  
+  font-weight: regular;
+  
+}
+
+.fototeam {
+  
+  position: relative;
+  
+}
+
+
+.findmain {
+  
+  background-color: #ffffff;
+  
+}
+
+.findcont {
+  
+  color: #e7e7e7;
+  
+  font-weight: bold;
+  
+}
+
+.findtx {
+  
+  
+  font-weight: regular;
+  
+}
+
+
+.teammain {
+  
+  background-color: #ffffff;
+  
+}
+
+.workit {
+  
+  color: #e7e7e7;
+  
+  font-weight: bold;
+  
+}
+
+.worktx {
+  
+  
+  font-weight: regular;
+  
+}
+
+/*end fotos*/
+
+.foot {
+    
+    position: relative;
+    background-size: cover;
+  
+}
+
+.foot::after {
+  
+	content: "";
+	background-color: #131637;
+  position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+  opacity: 0.9;
+  
+}
+
+.ftber {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #5e42b0;
+    box-shadow: 0 0 10px inset;
+    border-radius: 25%;
+    z-index: 2;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+     
+  }
+
+.ftlogo {
+    
+  fill: white;
+    
+}
+
+.footdiscenter {
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.ftplay {
+    
+    color: white;
+    z-index: 2;
+    position: relative;
+    
+    font-weight: bold;;
+    padding: 0;
+    margin: 0;
+  
+  }
+
+.ftshow {
+    
+    color: #9b8ec1;
+    z-index: 2;
+    
+    font-weight: regular;
+    position: relative;
+    
+  }
+
+.ftprogramma {
+    
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    z-index: 2;
+    
+  }
+
+
+.ftprogrammb {
+    
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    z-index: 2;
+    
+  }  
+    
+  
+  .ftapple {
+   
+    background-color: #5e42b0;
+    border-radius: 25px;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+      
+  }
+  
+  .ftgoogle {
+    
+    background-color: #5e42b0;
+    border-radius: 25px;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  .ftinsapple {
+    
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 0.5rem;
+    
+  }
+  
+  .ftwritedown {
+    
+    margin-left: 4%;
+    flex: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+  }
+  
+  .ftappledown {
+    
+    
+    font-weight: regular;
+    
+  }
+  
+  .ftapp {
+    
+    
+    font-weight: bold;
+    
+  }
+  
+
+  .ftinsgooogle {
+    
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 0.5rem;
+  }
+  
+  .ftwritedowngoo {
+    
+    margin-left: 2%;
+    flex: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+    
+  }
+  
+  .ftgoogledown {
+    
+    
+    font-weight: regular;
+    
+  }
+  
+  .ftgoo {
+    
+    
+    font-weight: bold;
+    
+  }
+  
+  
+ .ftlogot {
+  
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+   
+}
+  
+  .ftsur {
+  
+  font-size: 1.5rem;
+  
+  font-weight: bold;
+  color: white;
+  margin-left: 2%;
+  z-index: 2;
+  
+}
+
+
+@media (max-width: 639px) {
+  
+  .head {
+    
+    background-image: url("./img/football_767.jpg");
+    
+  }
+  
+  .headlogo {
+  
+    padding: 0 0 0 0;
+  
+}
+  
+  .googlelogo {
+    
+   width: 3rem; 
+    
+  }
+  
+  .applelogo {
+    
+   width: 3rem;
+    
+  }
+  
+  .logo {
+    
+    width: 4rem;
+    
+    
+  }
+  
+  .sur {
+    
+    margin-left: 2%;
+    font-size: 2rem;
+    
+  }
+  
+  .centerhe {
+  
+    padding-top: 93px;
+    padding-left: 6%;
+    font-size: 2.8rem;
+    letter-spacing: 1.3px;
+  
+}
+
+  .playcol {
+  
+    font-size: 2.8rem;
+    padding: 13px 0 0 44px;
+    letter-spacing: 1.7px;
+    line-height: 35px;
+    
+}
+  
+  .idnk {
+    
+    padding-left: 20%;
+    
+  }
+  
+  .fortable {
+    
+    padding: 63px 0 83px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+  }
+  
+  
+  .programmb {
+    
+    margin-top: 5%;
+  
+  }  
+    
+  
+  .apple {
+    
+    width: 280px;
+    height: 35px;
+    border-radius: 25px;
+    
+  }
+  
+  .google {
+    
+    width: 280px;
+    height: 35px;
+    border-radius: 25px;
+    
+  }
+  
+  .insapple {
+    
+    font-size: 0.8rem;
+    
+  }
+  
+
+  .insgooogle {
+    
+    font-size: 0.8rem;
+    
+  }
+  
+  
+  .headatl {
+    
+    margin: 3px 0 0 6%;
+    padding-bottom: 223px;
+    font-size: 5.2rem;
+  
+  }
+  
+  .footbollerb {
+    
+    top: calc( 50% - 425px );
+    left: calc( 50% - 90px );
+    
+  }
+
+  .number {
+
+   font-size: 1.5rem;
+
+}
+
+
+  
+  .titleconnect {
+    
+    padding: 60px 0 0 0;
+  
+   }
+
+   .connect {
+
+    font-size: 2.2rem;
+    letter-spacing: 2px;
+}
+  
+  .atlconnect {
+    
+    background-color: #fafafa;
+    padding-left: 6%;
+    
+  }
+  
+  .atlcontext {
+    
+    padding: 0px 15px 53px 0;
+    margin: 0 0 0 0;
+    font-size: 1.5rem;
+    line-height: 16px;
+    letter-spacing: 0.3px;
+    
+  }
+  
+  .atlcollab {
+    
+    padding: 31px 0 12px 6%;
+    
+  }
+
+  .collab {
+
+    font-size: 2.2rem;
+    letter-spacing: 2px;
+    
+}
+  
+  .atlcolltext {
+    
+    padding: 0px 15px 49px 0;
+    margin: 0 0 0 0;
+    font-size: 1.5rem;
+    line-height: 16px;
+    letter-spacing: 0.3px;
+
+    
+  }
+  
+  .atlgrowth {
+    
+    padding: 27px 0 14px 6%;
+      
+    }
+
+  .growth {
+    font-size: 2.2rem;
+    letter-spacing: 2px;}
+
+  .grnumber {
+    font-size: 1.5rem;
+}
+  
+  .atlgrtext {
+    
+    padding: 0px 15px 49px 0;
+    margin: 0 0 0 0;
+    font-size: 1.5rem;
+    line-height: 16px;
+    letter-spacing: 0.3px;
+    
+  }
+  
+  .headpl {
+    
+    margin: 5px 0 0 6%;
+    font-size: 5.2rem;
+    padding-bottom: 229px;
+  
+  }
+  
+  .basketboller {
+    
+    top: calc( 50% - 394px );
+    left: calc( 50% - 152px );
+    
+  }
+  
+  .titleplconnect {
+    
+    padding-top: 78px;
+  
+   }
+
+  .plconnectit {
+    font-size: 2.2rem;
+    letter-spacing: 2px;
+}
+  
+  .plconnect {
+    
+    background-color: #fafafa;
+    padding-left: 6%;
+    
+  }
+
+  .plcontext {
+    
+    padding: 21px 15px 57px 0;
+    margin: 0 0 0 0;
+    font-size: 1.5rem;
+    line-height: 16px;
+    letter-spacing: 0.3px;    
+  }
+
+  
+  .plcollab {
+    
+    padding: 53px 0 0 6%;
+    
+  }
+
+  .plcollabtit {
+    font-size: 2.2rem;
+    letter-spacing: 2px;
+    
+}
+
+  .plcolltext {
+    
+    padding: 20px 15px 56px 0;
+    margin: 0 0 0 0;
+    font-size: 1.5rem;
+    line-height: 16px;
+    letter-spacing: 0.3px;        
+  }
+
+  
+  .plgrowth {
+  
+    padding-left: 6%;
+      
+    }
+
+  .plgrnumber {
+    font-size: 1.5rem;
+}
+
+
+  .plgrowthtit {
+    font-size: 2.2rem;
+    letter-spacing: 2px;
+
+    }
+  
+       .plgrtext {
+    
+    padding: 8px 15px 41px 0;
+    margin: 0 0 0 0;
+    font-size: 1.5rem;
+    line-height: 16px;
+    letter-spacing: 0.3px;    
+    
+  }
+  
+  .pinkqurt {
+
+    left: 6.1%;
+    top: 52.3%;
+    height: 70px;
+    width: 70px;
+    
+    
+  }
+
+  .fnumber {
+    font-size: 1.5rem;
+    }
+  
+  .fpinkqurt {
+    
+    left: 6.1%;
+    top: 53.7%;
+    height: 70px;
+    width: 70px;
+    
+  }
+
+   .wpinkqurt {
+   
+    left: 6.1%;
+    top: 51%;
+    height: 70px;
+    width: 70px;
+     
+  }
+  
+  .beamain {
+    padding: 23px 0 62px 6.1%;  
+  }
+
+  .beact {
+    font-size: 3rem;
+    margin: 0;
+    line-height: 36px;
+}
+
+  .betx {
+    padding: 0px 54px 0 0;
+    font-size: 1.5rem;
+    letter-spacing: 1.3px;     
+  }
+
+  
+  .findmain {
+   padding: 27px 0 64px 6.1%;
+  }
+
+  .findcont {
+    font-size: 3rem;
+    margin: 0;
+    line-height: 36px;
+}
+
+  .findtx {
+    
+    padding: 0px 21px 0 0;
+    font-size: 1.5rem;
+    letter-spacing: 1.3px;   
+    
+  } 
+  
+  .teammain {
+    
+    padding: 27px 0 52px 6.1%;
+  
+  }
+
+  .workit {
+    font-size: 3rem;
+    margin: 0;
+    line-height: 36px;
+}
+     
+  .worktx {
+    padding: 0px 21px 0 0;
+    font-size: 1.5rem;
+    letter-spacing: 1.3px;     
+  }
+  
+  .foot {
+    
+   background-image: url("./img/game_767.jpg");
+      
+  }
+
+  .footrow {
+  padding: 98px 0 0 0;
+}
+  
+  .ftber {
+    
+    width: 76px;
+    height: 76px;
+    
+  }
+  
+  .ftlogo {
+    
+    width: 5.5rem;
+    
+  }
+  
+  .ftplay {
+    
+    font-size: 3rem;
+    letter-spacing: 3px;
+    padding-top: 49px;
+      
+  }
+
+   .ftshow {
+    
+    font-size: 1.5rem;
+    
+  }
+  
+  .fortablef {
+    
+    padding-top: 71px;
+    
+  }
+  
+ 
+
+
+.ftprogrammb {
+    
+    margin-top: 5%;
+    
+  }  
+    
+  
+  .ftapple {
+    
+    width: 280px;
+    height: 35px;
+      
+  }
+  
+  .ftgoogle {
+    
+    width: 280px;
+    height: 35px;
+    
+  }
+  
+  .ftinsapple {
+    
+    font-size: 0.9rem;
+    
+  }
+  
+
+  .ftinsgooogle {
+    
+    font-size: 0.9rem;
+    
+  }
+  
+  .ftlogot {
+    
+    margin-top: 65px;
+    
+  }
+
+  .ftsur {
+    font-size: 2rem;
+
+    }
+  
+}
+
+@media (min-width: 640px) and (max-width: 959px) {
+  
+  .head {
+    
+    background-image: url("./img/football_1280.jpg");
+    background-position: center center;
+    
+  }
+  
+  .headlogo {
+    
+    padding: 7px 0 0 0;
+    
+  }
+  
+  .fortable {
+    
+    display: flex;
+    padding: 299px 0 86px 0;
+    
+  }
+  
+  .logo {
+    
+    width: 6rem;
+    
+  }
+  
+  .googlelogo {
+    
+   width: 5.5rem; 
+    
+  }
+  
+  .applelogo {
+    
+    width: 5.5rem; 
+    
+  }
+  
+  .insapple {
+    
+    font-size: 1.5rem;
+    
+  }
+  
+  .insgooogle {
+    
+    font-size: 1.5rem;
+    
+  }
+  
+  .sur {
+    
+    margin-left: 3px;
+    font-size: 3.5rem;
+    
+  }
+
+
+  .centerhe {
+
+    font-size: 6rem;
+    padding: 133px 0 0 11%;
+    margin: 0;
+    letter-spacing: 6px;
+
+  }
+  
+    
+  .playcol {
+    
+    padding: 0 0 0 16%;
+    line-height: 77px;
+    
+  }
+  
+  .idnk {
+    
+    padding-left: 23%;
+    
+  }
+  
+  .programma {
+    
+    width: 50%;
+    justify-content: flex-end;
+    padding: 0 26px 0 0;
+      
+  }
+  
+  .programmb {
+    
+    width: 50%;
+    justify-content: flex-start;
+      
+  }
+  
+  .apple {
+    
+    width: 310px;
+    height: 79px;
+    border-radius: 50px;
+    
+    
+  }
+  
+  .google {
+    
+    border-radius: 50px;
+    width: 310px;
+    height: 79px;
+    
+  }
+  
+  .headatl {
+    
+    margin: 0;
+    padding: 61px 0 0 38%;
+    letter-spacing: 1px;
+    font-size: 8rem;    
+  }
+  
+  .footbollerb {
+    
+    left: 0;
+    top: 103px;
+    right: calc( 50% - -55px );
+    
+  }
+  
+  .atlconnect {
+    
+    padding: 29px 4% 1% 38%;
+    
+  }
+
+  .titleconnect {
+    margin: 0 0 20px 0;
+    }
+
+  .number {
+    font-size: 2rem;
+    margin: 0 2% 0 0;
+}
+
+  .connect {
+    margin: 0 0 0 0;
+    font-size: 3rem;
+    letter-spacing: 3px;
+}
+
+  .atlcontext {
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    line-height: 26px;
+}
+  
+  .atlcollab {
+    
+    padding: 43px 4% 1% 38%;
+    
+  }
+
+  .titlecollab {
+    margin: 0px 0 19px 0;
+    }
+
+  .collab {
+    margin: 0 0 0 0;
+    font-size: 3rem;
+    letter-spacing: 3px;
+}
+
+  .atlcolltext {
+
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    line-height: 26px;
+    padding: 0 0 15px 0;
+
+}
+
+  
+  .atlgrowth {
+    
+    padding: 30px 4% 1px 38%;
+      
+    }
+
+  .growth {
+    margin: 0 0 0 0;
+    font-size: 3rem;
+    letter-spacing: 3px;
+}
+
+  .grnumber {
+    font-size: 2rem;
+    margin: 0 2% 0 0;
+}
+
+  .atlgrtext {
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    line-height: 26px;    
+}
+
+    
+  .headpl {
+    
+    margin: 0;
+    padding: 58px 0 0 4%;
+    letter-spacing: 1px;
+    font-size: 8rem;
+    
+  }
+  
+  .basketboller {
+    
+    right: 0;
+    top: 40px;
+    
+  }
+  
+  .plconnect {
+    
+    padding: 30px 40% 3.5% 4%;
+    
+  }
+
+  .plconnectit {
+    
+    margin: 0 0 0 0;
+    font-size: 3rem;
+    letter-spacing: 3px;
+    
+  }
+
+
+  .plcontext {
+
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    line-height: 26px;
+
+}
+
+   
+  
+  .plcollab {
+    
+   padding: 30px 40% 3.5% 4%;
+    
+  }
+
+  .plcollabtit {
+    
+    margin: 0 0 0 0;
+    font-size: 3rem;
+    letter-spacing: 3px;
+
+    
+  }
+
+  .plcolltext {
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    line-height: 26px;
+}
+
+  
+  .plgrowth {
+    
+  padding: 30px 40% 3.5% 4%;
+    
+  }
+  
+   
+    
+  .plgrowthtit {
+    
+    margin: 0 0 0 0;
+    font-size: 3rem;
+    letter-spacing: 3px;
+    
+  }
+
+  .plgrnumber {
+    font-size: 2rem;
+    margin: 0 2% 0 0;
+}
+
+  .plgrtext {
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    line-height: 26px;
+}
+  
+  .beamain {
+    
+    padding: 71px 5% 59px 3.3%;
+    
+  }
+  
+  .beact {
+    
+    font-size: 7.4rem;
+    margin: 0;
+    letter-spacing: 4px;
+    line-height: 88px;
+    
+  }
+  
+  .betx {
+    
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    
+  }
+  
+  .findmain {
+    
+    padding: 71px 5% 72px 3.3%;
+    
+  }
+  
+  .findcont {
+    
+    font-size: 7.4rem;
+    margin: 0;
+    letter-spacing: 4px;
+    line-height: 73px;
+    
+  }
+  
+  .findtx {
+    
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+
+    
+  }
+  
+  .teammain {
+    
+    padding: 71px 5% 59px 3.3%;
+    
+  }
+  
+  .workit {
+    
+    font-size: 7.4rem;
+    margin: 0;
+    letter-spacing: 4px;
+    line-height: 88px;
+    
+  }
+  
+  .worktx {
+    
+    letter-spacing: 2px;
+    font-size: 2.5rem;
+    padding: 0 0 0 0 !important;
+  }
+  
+  .pinkqurt {
+    
+    top: 500px;
+    left: 5%;
+    height: 117px;
+    width: 117px;
+    
+  }
+  
+  .fpinkqurt {
+    
+    top: 500px;
+    left: 5%;
+    height: 117px;
+    width: 117px;
+    
+  }
+
+   .wpinkqurt {
+   
+    top: 500px;
+    left: 5%;
+    height: 117px;
+    width: 117px;
+     
+  }
+  
+  .fnumber {
+    
+    font-size: 2rem;
+    
+  }
+  
+  
+  .foot {
+    
+    background-image: url("./img/game_1280.jpg");
+    padding: 124px 0 0 0;
+    
+  }
+  
+  .ftber {
+    
+    width: 145px;
+    height: 145px;
+    
+  }
+  
+  .ftlogo {
+    
+    width: 9rem;
+    
+  }
+  
+  .ftplay {
+    
+    font-size: 8rem;
+    padding-top: 48px;
+    letter-spacing: 4px;
+    line-height: 106px;    
+  }
+  
+  .ftshow {
+    
+    font-size: 3rem;
+    letter-spacing: 4px;
+    
+  }
+  
+  .fortablef {
+    
+    display: flex;
+    padding-top: 279px;
+    padding-bottom: 31px;
+    
+  }
+  
+  .ftprogramma {
+    
+    width: 50%;
+    justify-content: flex-end;
+    padding-right: 2.5%;
+    
+  }
+  
+  .ftprogrammb {
+    
+    width: 50%;
+    justify-content: flex-start;
+    padding-left: 2.5%;
+      
+  }
+  
+  .ftapple {
+    
+    width: 310px;
+    height: 79px;
+    border-radius: 50px;
+    
+    
+  }
+  
+  .ftgoogle {
+    
+    border-radius: 50px;
+    width: 310px;
+    height: 79px;
+    
+  }
+  
+  .ftinsapple {
+    
+    font-size: 1.5rem;
+    
+  }
+  
+  .ftinsgooogle {
+    
+    font-size: 1.5rem;
+    
+  }
+
+ .ftsur {
+  font-size: 3rem;
+
+}
+
+}
+
+ @media (min-width: 960px)  {
+   
+   .head {
+    
+    background-image: url("./img/football_1920.jpg");
+    padding-bottom: 100px; 
+  }
+   
+   .fortable {
+    margin-top: 230px;
+    display: flex;
+    justify-content: center;
+  }
+   
+   .headlogo {
+    
+    padding: 20px 0 5.5% 0;
+    
+  }
+  
+  .logo {
+    width: 5.5rem;
+  }
+  
+  .googlelogo {
+    width: 51px; 
+  }
+  
+  .applelogo {
+    
+    width: 51px;
+    box-sizing: border-box;
+  }
+  
+  .insapple {
+    
+    font-size: 1.4rem;
+    
+  }
+  
+  .insgooogle {
+    
+    font-size: 1.4rem;
+    
+  }
+  
+  .sur {
+    
+    margin-left: 0.2%;
+    font-size: 3rem;
+    
+  }
+  
+  .centerhe {
+    
+    font-size: 9.2rem;
+    padding: 136px 0 0 9.6%;
+    margin: 0;
+    letter-spacing: 0.3rem;
+    
+  }
+  
+  .playcol {
+    
+    font-size: 9.2rem;
+    margin-left: 25.8%;
+    margin-top: -8px;
+    letter-spacing: 4px;
+    line-height: 80px;
+  }
+   
+  .programm {
+    margin: 0 25px;
+  }
+
+  .programma {
+   padding: 0 63px 0 0;
+  }
+  
+  .programmb {
+  }
+  
+  .apple {
+    
+    width: 310px;
+    height: 76px;
+    border-radius: 32px;
+    
+    
+  }
+  
+  .google {
+    
+    border-radius: 32px;
+    width: 310px;
+    height: 76px;
+    
+  }
+  
+  .headatl {
+    
+    margin: 94px 0 0 0;
+    padding: 0 0 0 52.2%;
+    font-size: 8rem;
+    letter-spacing: 2px;
+    
+  }
+  
+  .footbollerb {
+    
+    top: -10%;
+    left: calc(50% - 567px);
+    
+  }
+  
+  .atlconnect {
+    
+    padding: 73px 5% 3% 52.2%;
+    
+  }
+
+   .titleconnect {
+    }
+   
+   .connect {
+     
+    font-size: 3.7rem;
+    letter-spacing: 1px;
+    margin: 0px;
+     
+   }
+   
+   .number {
+     
+     margin: 0 16px 0 0;
+     font-size: 2rem;
+     
+   }
+   
+   .atlcontext {
+     
+     margin: 13px 0 0 0.3%;
+    letter-spacing: 0.4px;
+    font-size: 2rem;
+     
+   }
+   
+  
+  .atlcollab {
+    
+    padding: 0 5% 0 52.5%;
+    
+  }
+   
+   .collab {
+     
+     font-size: 3.7rem;
+     margin: 0;
+     
+   }
+   
+   .titlecollab {
+     
+     padding: 44px 0 0 0;     
+   }
+   
+   .atlcolltext {
+     
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 16px 75px 54px 0;
+    font-size: 2rem;     
+   }
+  
+  .atlgrowth {
+    
+    padding: 0 150px 0 52.2%;
+      
+    }
+
+  .titlegrowth {
+     
+     padding: 7% 0 0 0;
+     
+   }
+
+   .grnumber {
+
+    font-size: 2rem;
+    margin: 0 16px 0 0;
+
+    }
+   
+   .atlgrtext {
+     
+    letter-spacing: 1px;
+    font-size: 2rem;
+    margin: 0;
+    padding: 11px 0 53px 0;     
+   }
+
+   
+   .growth {
+     
+     font-size: 3.7rem;
+     margin: 0;
+     
+   }
+  
+  .headpl {
+    
+    margin: 0;
+    padding: 90px 0 0 9.5%;
+    font-size: 8rem;    
+  }
+  
+  .basketboller {
+    
+    right: calc(50% - 834px);
+    top: 2%;
+    
+  }
+  
+  .plconnect {
+    
+    padding: 3.9% 48% 54px 10%;
+    
+  }
+
+  .plcontext {
+
+   letter-spacing: 1px;
+    padding: 15px 2px 0px 0;
+    margin: 0;
+    font-size: 2rem;
+    }
+
+  
+  .plcollab {
+    
+    padding: 48px 0 89px 9.9%;
+    
+  }
+  
+  .plgrowth {
+    
+    padding: 46px 0 30px 9.9%;
+    
+  }
+  
+  .plconnectit {
+    
+    font-size: 3.7rem;
+    margin: 0;
+    letter-spacing: 1px;
+    
+  }
+  
+  .plcollabtit {
+    
+    font-size: 3.7rem;
+    letter-spacing: 1px;
+    Margin:0;    
+  }
+
+  .plcolltext {
+
+    padding: 17px 0 0 0;
+    margin: 0;
+    font-size: 2rem;
+    letter-spacing: 1px;
+  }
+  
+  .plgrowthtit {
+    
+    font-size: 3.7rem;
+    letter-spacing: 1px;
+    Margin: 0;
+  }
+
+  .plgrnumber {
+    
+    font-size: 2rem;
+    margin: 0 16px 0 0;    
+   }
+
+
+  .plgrtext {
+
+    letter-spacing: 0.05rem;
+    font-size: 2rem;
+    margin: 0;
+    padding: 0;
+    
+  }
+   
+   .fotobl {
+     
+     display: flex;
+     
+   }
+   
+   .imgmanph {
+     
+     width: 50%;
+     
+   }
+   
+   .beamain {
+    padding: 12% 10% 0 6.2%;    
+    box-sizing: border-box;
+    width: 50%;
+  }
+  
+  .beact {
+    
+    font-size: 8rem;
+    margin: 7px 0 0 0;    
+  }
+  
+  .betx {
+    
+    font-size: 2.5rem;
+    padding: 52px 35px 0px 0;
+    
+  }
+   
+   .fotocouch {
+     
+     display: flex;
+     flex-direction: row-reverse;
+     
+   }
+   
+   .imgcouch {
+     
+     width: 50%;
+     
+   }
+  
+  .findmain {
+    
+    padding: 12% 2% 0px 10%;
+    box-sizing: border-box;
+    width: 50%;    
+  }
+  
+  .findcont {
+    
+    font-size: 8rem;
+    margin: 0;
+    
+  }
+  
+  .findtx {
+    
+    font-size: 2.5rem;
+    padding: 24px 73px 0 0;
+    
+  }
+   
+   .fototeam {
+     
+     display: flex;
+     
+   }
+  
+  .teammain {
+    
+    padding: 12.3% 12% 0 6.4%;
+    width: 50%;
+    box-sizing: border-box;
+    
+  }
+   
+   .imgteam {
+     
+     width: 50%;
+     
+   }
+  
+  .workit {
+    
+    font-size: 8rem;
+    margin: 0;
+    
+  }
+  
+  .worktx {
+    
+    font-size: 2.5rem;
+    padding: 50px 0 0 0;
+    
+  }
+   
+   .pinkqurt {
+    
+    top: 50%; 
+    left: 50%;
+    margin-left: -4vmax; 
+    margin-top: -4vmax; 
+    height: 8vmax;
+    width: 8vmax;
+    
+  }
+
+  .fnumber {
+    font-size: 2.5rem;
+    }
+  
+  .fpinkqurt {
+    
+    top: 50%; 
+    left: 50%;
+    margin-left: -4vmax; 
+    margin-top: -4vmax; 
+    height: 8vmax;
+    width: 8vmax;    
+  }
+
+   .wpinkqurt {
+   
+    top: 50%; 
+    left: 50%;
+    margin-left: -4vmax; 
+    margin-top: -4vmax; 
+    height: 8vmax;
+    width: 8vmax;
+     
+  }
+  
+   
+   .foot {
+    
+    background-image: url("./img/game_1920.jpg");
+    padding: 224px 0 0 0;
+    
+  }
+   
+   .footrow {
+     
+     display: flex;
+     padding: 0;
+    
+   }
+   
+   
+   .footdiscenter {
+    
+      margin-right: auto;
+      align-items: flex-start;
+  
+   }
+   
+   .ftber {
+    
+    width: 138px;
+    height: 145px;
+    margin: 0px 31px 0 auto;
+    
+  }
+  
+  .ftlogo {
+    
+    width: 9rem;
+    
+  }
+  
+  .ftplay {
+    
+    font-size: 8rem;
+    letter-spacing: 4px;
+    line-height: 99px;
+    
+  }
+  
+  .ftshow {
+    
+    font-size: 3rem;
+    
+  }
+  
+  .fortablef {
+    
+    display: flex;
+    padding: 146px 0 0 0;
+    
+  }
+  
+  .ftprogramma {
+    
+    width: 50%;
+    justify-content: flex-end;
+    padding-right: 11px;
+    
+  }
+  
+  .ftprogrammb {
+    
+    width: 50%;
+    justify-content: flex-start;
+    padding-left: 38px;
+      
+  }
+  
+  .ftapple {
+    
+    width: 310px;
+    height: 79px;
+    border-radius: 50px;
+    
+  }
+  
+  .ftgoogle {
+    
+    border-radius: 50px;
+    width: 310px;
+    height: 79px;
+    
+  }
+  
+  .ftinsapple {
+    
+    font-size: 1.5rem;
+    
+  }
+  
+  .ftinsgooogle {
+    
+    font-size: 1.5rem;
+    
+  }
+
+  .ftlogot {
+    padding: 235px 0 50px 0;
+}
+   
+   .ftsur {
+     
+     margin-left: 0.5%;
+     font-size: 3rem;
+     
+     
+   }
+
+
+}
+  
+
+ 
+  
+  
+ 
+  
